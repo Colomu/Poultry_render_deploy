@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from poultry_formulation import get_formulation, nutrient_requirements, ingredient_db
+from .poultry_formulation import get_formulation, nutrient_requirements, ingredient_db
 
 app = Flask(__name__)
 
